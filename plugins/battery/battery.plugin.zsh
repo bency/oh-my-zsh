@@ -37,7 +37,7 @@ if [[ $(uname) == "Darwin" ]] ; then
       if [ $timeremaining -gt 720 ] ; then
         echo "::"
       else
-        echo "~$((timeremaining / 60)):$((timeremaining % 60))"
+        echo "[~$((timeremaining / 60)):$((timeremaining % 60))]"
       fi
     else
       echo "∞"
