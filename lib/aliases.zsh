@@ -32,3 +32,7 @@ alias da='ls -lAh'
 
 alias afind='ack-grep -il'
 
+alias saqua='mosh aqua.srv.pixnet'
+alias sirc='mosh --ssh="ssh -p 222" irc.pixnet.tw'
+alias mario='mosh mario.bency.org'
+alias jccf='ssh jccf.bency.org'
